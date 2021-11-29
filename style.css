@@ -233,7 +233,7 @@
 {
   min-height: 135px;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 60px; 
   background-color: black;
   display: flex;
   flex-wrap: wrap;
@@ -458,6 +458,7 @@
 }
 .faq
 {
+  width: 100%;
   font-size: 36px;
   font-weight: bold;
   text-align: center;
@@ -466,7 +467,7 @@
 
 .faq_scnd img
 {
-  height: 370px;
+  min-height: 370px;
   width: 100%;
 }
 .faq_sp
@@ -513,7 +514,7 @@
 {
   *
   {
-    margin-left: 15px;
+    margin-left: 20px;
   }
 
   .after_wh
@@ -649,15 +650,100 @@
 .faq_text_first
 {
   color: #646464;
+  width: 90%;
+  text-align: center;
   font-weight: bold;
   font-size: 15px;
-  margin-left: 10px;
 }
 .faq_text_scnd
 {
   font-size: 16px;
-  width: 100%;
+  width: 93%;
   margin-left: 5%;
   margin-right: 5%;
-  max-width: 940px;
+  max-width: 915px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.faq_dupl
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.faq_gon
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.faq_ftr_with_igs
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.faq_ff_main
+{
+  min-height: 195px;
+  background-color: black;
+  width: 100%;
+}
+.faq_ff_2
+{
+  min-height: 135px;
+  width: 100%;
+  margin-top: 60px; 
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 0px;
+
+}
+.faq_ff_2 ul
+{
+   margin-top: 55px;
+  margin-right: 70px;
+}
+.faq_ff_2 ul li
+{
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 20px;
+  font-size: 14px;
+  color: white;
+}
+.faq_ff
+{
+  height: 60px;
+  width: 100%;
+  margin-top: 0px;
+  background-color: black;
+}
+.Rectangle-12-copy-2 {
+  width: 100%;
+  height: 1px;
+  background-color: #424242;
+  margin-bottom: 20px;
+}
+@media (max-width: 220px)
+{
+  .faq_fsp
+  {
+    height: 100%;
+  }
+}
+@media (max-width: 767px)
+{
+  .faq_fsp ul li
+  {
+    width: 100%;
+    display: block;
+    float: left;
+  }
 }
