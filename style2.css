@@ -1892,7 +1892,7 @@
 @media (max-width: 992px)
 {
   #us_nav_item_booknow, #us_nav_item_price, #us_nav_item_war, #us_nav_item_blog, #us_nav_item_con img
-#us_nav_pro, #us_nav_opt,#us_nav_item_con
+#us_nav_pro, #us_nav_opt,#us_nav_item_con,#us_nav_item_Book_now
   {
     margin-left: 10px;
   }
@@ -1917,7 +1917,6 @@
 {
   width: 75%;
   margin-left: 1%;
-  border: 1px solid #e1e1e1;
 }
 .us_name
 {
@@ -1940,6 +1939,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 .us_table1 div
 {
@@ -1957,6 +1957,7 @@
   margin-left: 0px;
   min-height: 50px;
   line-height: 50px;
+  border: 1px solid #e1e1e1;
 }
 .us_table22 div
 {
@@ -2098,4 +2099,223 @@
   font-size: 12px;
   padding-right: 2px;
   padding-left: 2px;
+}
+
+
+
+
+
+
+#us_nav_item_Book_now
+{
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  margin-right: 18px;
+  background-color: #29626d;
+  border-radius: 20px;
+}
+.cus_sh_main
+{
+  display: flex;
+  justify-content: space-between;
+}
+.cus_sh
+{
+  font-size: 22px;
+  font-weight: bold;
+  color: #646464;
+  margin-bottom: 12px;
+}
+.cus_export
+{
+  color: white;
+  border-radius: 17px;
+  background-color: #146371;
+  border: 1px solid #146371;
+  width: 70px;
+  height: 34px;
+  margin-bottom: 6px;
+}
+.cus_hat_txt
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cus_ht button
+{
+  border:1px solid #9c9c9c;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-color: white;
+}
+.cus_ht button img
+{
+  height: 20px;
+  width: 30px;
+}
+
+.cus_ht_txt1
+{
+  color: #646464;
+  font-size: 16px;
+  margin-left: 9px;
+}
+.cus_ht_txt2
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 9px;
+}
+.cus_ht_txt2 img
+{
+  height: 16px;
+  width: 17px;
+  margin-top: 2px;
+}
+.cus_ht_txt2 div
+{
+  color: #646464;
+  font-size: 16px;
+  margin-left: 2px;
+}
+.us_table2 .cus_pay
+{
+  font-size: 24px;
+  font-weight: bold;
+  color: #1d7a8c;
+  line-height: 60px;
+  text-align: center;
+}
+.cus_status button
+{
+  color: white;
+  font-size: 13px;
+  max-height: 22px;
+  max-width: 80px;
+  border:1px solid #67b644;
+  background-color: #67b644;
+  margin-top: 18px;
+}
+.cus_rate button
+{
+  color: white;
+  font-size: 14px;
+  height: 34px;
+  width: 70px;
+  border:1px solid #6da9b5;
+  background-color: #6da9b5;
+  margin-top: 12px;
+  border-radius: 17px;
+}
+.cus_last_row
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cus_last_left
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cus_last_left div
+{
+  margin-top: 23px;
+  font-size: 14px;
+  color: #646464;
+}
+.cus_last_right
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 9px;
+}
+.cus_sel
+{
+  height: 28px;
+  width: 48px;
+  margin-top: 20px;
+  border: 1px solid #646464;
+  color: #646464;
+  font-size: 14px;
+}
+.cus_last_right button
+{
+  font-size: 14px;
+  color: #777777;
+  background-color: white;
+  height: 38px;
+  width: 38px;
+  border:1px solid #777777;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+.cus_last_right
+{
+
+}
+.cus_last_right button img
+{
+  height: 9px;
+  width: 9px;
+}
+.cus_last_right .cus_b1
+{
+  color: white;
+  background-color: #1d7a8c;
+}
+.cus_can button 
+{
+  color: white;
+  font-size: 13px;
+  max-height: 22px;
+  max-width: 80px;
+  border:1px solid #ff6b6b;
+  background-color: #ff6b6b;
+  margin-top: 18px;
+}
+@media (max-width: 630px)
+{
+  .
+}
+.cus_icon
+{
+  display: none;
+}
+@media (max-width: 480px)
+{
+  .cus_icon,.cus_cns
+  {
+    display: block;
+  }
+  .cus_st_com,.cus_rt,.cus_cnd
+  {
+    display: none;
+  }
+  .cus_rate button
+  {
+    height: 25px;
+    width: 47px;
+  }
+}
+@media (max-width: 350px)
+{
+  .cus_te
+  {
+    display: block;
+  }
+  .cus_rate button
+  {
+    height: 50px;
+    width: 27px;
+  }
+}
+@media (max-width: 460px)
+{
+  .cus_ment, .cus_tus
+  {
+    display: block;
+  }
 }
